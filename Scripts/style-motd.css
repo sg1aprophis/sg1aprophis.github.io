@@ -7,16 +7,19 @@ html {
 body { 
 	color: #FFF; font-family: "Open Sans", Arial, Helvetica, sans-serif;
 	background: url('../images/background.png'); 
-	background-size: 100% auto; 
 	background-size: cover;
-}
-	
+}	
 #container { 
-	width:1080px;
+	width: 1000px;
 	font-weight: bold;
 	margin:0 auto;
 }
- 	
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+} 	
 .list-group {
   padding-left: 0;
   margin-bottom: 20px;
